@@ -1,13 +1,11 @@
 'use strict';
 
-var basicTeenager =''
 function basicTeenager(age){
   if (age >= 13 && age <= 19){
    return 'You are a teenager!'
  }
  }
 
-var teenager =''
  function teenager(age){
    if (age >= 13 && age <= 19) {
     return 'You are a teenager!'
@@ -16,7 +14,6 @@ var teenager =''
   }
 }
 
-var ageChecker =''
 function ageChecker(age){
   if (age >= 13 && age <= 19) {
     return 'You are a teenager!'
@@ -27,7 +24,6 @@ function ageChecker(age){
   }
 }
 
-var ternaryTeenager =''
 function ternaryTeenager(age){
   var teenager = "You are a teenager"
 var notTeenager = "You are not a teenager"
@@ -61,4 +57,4 @@ function switchAge(age){
       break;
     default: return 'You have an age'
   }
-}
+}	
