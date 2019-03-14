@@ -37,11 +37,21 @@ function ternaryTeenager(age){
 function switchAge(age){
   switch (age) {
     case 14:
-          return "you're a teenager"
+          return "You're a teenager"
       case 15:
-          return "you're still a teenager"
+       return "You're a teenager"
+       case  16:
+       return "You're a teenager"
+       case 17:
+       return "You're a teenager"
+       case 18:
+       return "You're a teenager"
+       case 19:
+       return "You're a teenager"
+         
       default:
-          return "you're probably to old to be asking if you're a teenager"
+          return "You have an age"
+          console.log()
    }
 
 }
